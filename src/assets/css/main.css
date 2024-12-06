@@ -34,8 +34,6 @@
 }
 
 
-
-
 * {
     box-sizing: border-box;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -1031,27 +1029,23 @@ padding-bottom: 24px;
 
 
 
-
-
-
-
-
 .subscribe {
-    padding-top: 75px;
-    padding-bottom: 75px;
-    display: flex ; 
+    margin: 0px auto;
+    padding: 75px 20px;
     background-color: var(--clr-bg-100);
     border-radius: 8px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-    width: 1290px;
+    max-width: 1290px;
 
+  
 }
 
-.subscribe-container {
 
+
+
+
+.subscribe-container {
+   display: flex;
+ 
 
 }
 
@@ -1059,11 +1053,14 @@ padding-bottom: 24px;
     display: flex;
     align-items: center;
     gap: 100px; 
+     
    
 }
 
 .sub-content .bellicon {
     margin-right: -60px;
+    margin-left: 90px;
+   
 }
 
 

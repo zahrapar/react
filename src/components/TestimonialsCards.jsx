@@ -1,5 +1,6 @@
 
 import React from 'react';
+import StarRating from './StarRating';
 
 const TestimonialsCards = ({ item }) => {
   return (
@@ -8,14 +9,16 @@ const TestimonialsCards = ({ item }) => {
         <img src={item.quoteImage} alt="Quote Icon" />
       </div>
       <div className="rating">
-        <img src={item.ratingImage} alt="Rating Stars" />
+        {/* <img src={item.ratingImage} alt="Rating Stars" /> */}
+
+        <StarRating starRating={item.starRating}/>
       </div>
-      <p className="testimonial-text">{item.text}</p>
+      <p className="testimonial-text">{item.comment}</p>
       <div className="authors">
-        <img src={item.authorImage} alt={item.authorName} />
+        <img src={item.avatarUrl} alt={item.author} />
         <div>
-          <h5 className="name">{item.authorName}</h5>
-          <p className="job">{item.authorJob}</p>
+          <h5 className="name">{item.author}</h5>
+          <p className="job">{item.jobRole}</p>
         </div>
       </div>
     </div>
