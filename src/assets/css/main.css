@@ -1149,3 +1149,6 @@ padding-bottom: 24px;
 }
 
 
+.star-rating .fa-star.filled {
+    color: yellow !important; 
+}

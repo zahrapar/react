@@ -2,11 +2,13 @@
 import React from 'react';
 import StarRating from './StarRating';
 
+import Quote from '../assets/images/quotes.svg';
+
 const TestimonialsCards = ({ item }) => {
   return (
     <div className="testi-card">
       <div className="quote">
-        <img src={item.quoteImage} alt="Quote Icon" />
+      <img src={Quote} alt="" />
       </div>
       <div className="rating">
         {/* <img src={item.ratingImage} alt="Rating Stars" /> */}
