@@ -155,6 +155,19 @@ a:hover {
     color: var(--color-dark);
 }
 
+.btn-circlee {
+    height: 44px;
+    width: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 1px solid var(--color-border-gray);
+    background-color: var(--clr-bg-100);
+    color: var(--color-dark);
+}
+
+
 .btn-toggle-switch {
     display: flex;
     align-items: center;
@@ -948,6 +961,10 @@ padding-bottom: 24px;
     margin-bottom: 10px;
 }
 
+
+
+
+
 .panel {
     font-size: 16px;
     text-align: left;
@@ -958,6 +975,28 @@ padding-bottom: 24px;
     padding: 10px;
     
 }
+
+
+
+.panel span {
+    text-decoration: none !important; 
+    font-weight: bold; 
+    
+}
+
+
+
+.panel.active span {
+    text-decoration: none !important; 
+}
+
+
+
+
+
+
+
+
 
 
 .icon-upp {
