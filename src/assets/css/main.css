@@ -38,7 +38,13 @@
     color: var(--color-border-gray);
     
  }
- 
+ [data-theme="dark"] .discover-more span{
+  
+    color: var(--color-border-gray);
+   
+    
+ }
+
 
  [data-theme="dark"] .carousel-section h2  {
     color: var(--color-border-gray);
@@ -1219,12 +1225,10 @@ padding-bottom: 24px;
 }
 
 
-.star-rating .fa-star.filled {
-    color: yellow !important; 
+
+.star-rating  {
+    color: orange !important; 
 }
-
-
-
 
 
 
