@@ -19,7 +19,6 @@
 
 }
 
-/* Dark mode styles */
 [data-theme="dark"] {
     --clr-bg: var(--clr-gray-900);
     --clr-bg-100: rgba(255, 255, 255, 0.04);
@@ -31,7 +30,65 @@
     --clr-market-btn: var(--clr-gray-100);
     color-scheme: dark;
     --clr-info-icon-bg: #4c4d84;
+
 }
+
+
+[data-theme="dark"] header .nav-link{
+    color: var(--color-border-gray);
+    
+ }
+ 
+
+ [data-theme="dark"] .carousel-section h2  {
+    color: var(--color-border-gray);
+    
+   
+  
+  }
+
+  [data-theme="dark"] .testimonials .testi-card{
+    /* background-color:  #161719; */
+    background-color: var(--clr-bg-100);
+    color: white;
+    
+ }
+
+
+
+ [data-theme="dark"] .testimonials .name, 
+ [data-theme="dark"] .testimonial-text,
+ [data-theme="dark"] .testimonials .title
+ {
+    color: var(--color-border-gray);
+    
+ }
+
+
+ [data-theme="dark"] .testimonials .job{
+  
+    color:  #9397AD;
+    
+ }
+
+
+
+ [data-theme="dark"] .faq-section .faq{
+  
+    background-color: var(--clr-bg-100);
+    margin-top: 10px;
+    
+ }
+
+ [data-theme="dark"] .any-questions .card{
+  
+    background-color: var(--clr-bg-100);
+    margin-top: 10px;
+    
+ }
+
+
+
 
 
 * {
@@ -56,6 +113,8 @@ body {
     display: grid;
     grid-template-rows: auto 1fr auto;
     height: 100vh;
+    
+    
 }
 
 
@@ -83,6 +142,16 @@ a:hover {
     font-weight: 600;
     text-decoration: none;
 }
+
+
+
+
+
+
+
+
+
+
 .nav-link:hover {
     color: var(--color-primary);
     text-decoration: underline;
@@ -267,12 +336,13 @@ header .container {
     padding-bottom: 1rem;
 }
 
-footer {
+/* footer {
     font-size: 14px;
     padding-top: 55px;
     padding-bottom: 55px;
     color: var(--color-gray);
-}
+ 
+} */
 
 .container {
     display: flex;
@@ -678,7 +748,7 @@ h1, h2, h3, h4, h5, h6 {
         font-size: 2rem;
         color: var(--color-dark); 
     
-        background-color: var(--clr-bg-100);
+        /* background-color: var(--clr-bg-100); */
         
     }
     
@@ -1152,3 +1222,29 @@ padding-bottom: 24px;
 .star-rating .fa-star.filled {
     color: yellow !important; 
 }
+
+
+
+
+
+
+
+
+footer {
+    font-size: 14px;
+    padding-top: 55px;
+    padding-bottom: 55px;
+    color: var(--color-gray);
+    display: block;
+ 
+    bottom: 0;
+    width: 100%;
+    height: 200px;
+    
+ 
+}
+
+
+
+
+
