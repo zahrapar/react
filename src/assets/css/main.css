@@ -1243,7 +1243,8 @@ footer {
  
     bottom: 0;
     width: 100%;
-    height: 200px;
+    height: 180px;
+    
     
  
 }
@@ -1252,3 +1253,48 @@ footer {
 
 
 
+
+
+
+
+
+.subscribe {
+
+  }
+  
+  /* .subscribe-container {
+
+  }
+  
+  .sub-content {
+  
+  } */
+  
+  .form {
+  
+    position: relative;
+  }
+  
+  .error-message {
+    color: red;
+    margin-bottom: 5px;
+    font-size: 12px;
+    position: absolute;
+    top: -20px; 
+    left: 4px;
+    
+  }
+  
+  .form-email {
+    display: flex;
+    align-items: center;
+  }
+  
+  .email-icon {
+    margin-right: 10px;
+  }
+  
+  /* input[type="email"] {
+
+  }
+   */
